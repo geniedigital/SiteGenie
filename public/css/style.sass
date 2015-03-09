@@ -1,0 +1,221 @@
+*
+	margin: 0
+	padding: 0
+
+$font-stack: 'Open Sans', sans-serif
+$primary-color:	#fff
+
+body
+	font: $font-stack
+	color: $primary-color
+
+h3
+	color: #333333
+	font-family: $font-stack
+	text-transform: uppercase
+	font-size: 23/16 * 1em
+	font-weight: bold
+	text-align: center
+
+.left
+	float: left
+
+.right
+	float: right
+
+/* HEADER */
+
+.hero 
+	padding-top: 20px
+
+.wrapHero
+	max-width: 980px
+	margin: 0 auto
+
+.hero
+	max-width: 100%
+	height: 850px
+	background-color: #666
+	background-image: url(../images/hero.jpg)
+
+nav
+	ul
+		margin: 15px
+		list-style: none
+
+	li
+		display: inline-block
+
+	a
+		font-family: $font-stack
+		font-weight: lighter
+		font-size: 0.79em
+		text-transform: uppercase
+		display: block
+		color: #fff
+		text-decoration: none
+
+	a:hover
+		color: #a81247
+
+.navLink
+
+	::after
+		content: "|"
+		padding: 0 5px
+		position: relative
+		top: -1px
+		color: white
+
+.navLang
+	margin-left: 30px
+
+	a
+		padding-right: 5px
+
+.heroContent
+	clear: both
+	max-width: 694px
+	margin: 0 auto
+	text-align: center
+	padding-top: 150px
+				
+
+.heroBorder
+	img 
+		padding: 10px 5px
+
+.heroBorder::before
+	content: " "
+	background: url(../images/line_left.gif) no-repeat 0 0
+	width: 287px
+	display: inline-block
+	height: 20px
+	position: relative
+	top: -30px
+
+.heroBorder::after
+	content: " "
+	background: url(../images/line_right.png) no-repeat 0 0
+	width: 287px
+	display: inline-block
+	height: 20px
+	position: relative
+	top: -30px
+
+.heroText
+	
+	h2
+		text-transform: uppercase
+		font-family: $font-stack
+		font-size: 2.5em
+		font-weight: 300
+		letter-spacing: 10px
+		color: #dfdfdf
+
+		a
+			font-weight: bold
+			font-size: 1.2em
+
+.heroButton
+	
+	margin-top: 60px
+ 
+	a
+		font-family: $font-stack
+		text-transform: uppercase
+		font-size: 1.3375em
+		color: #dfdfdf
+		text-decoration: none
+		letter-spacing: 10px
+		border: 2px solid white
+		border-radius: 8px
+		padding: 10px 50px
+
+	a:hover
+		background-color: white
+		color: black
+
+.heroButton::after
+	content: " "
+	background: url(../images/line_bottom.png) no-repeat 0 0
+	width: 694px
+	display: inline-block
+	height: 15px
+	position: relative
+	top: 80px
+
+.homeAbout
+	padding-top: 70px
+	font-family: $font-stack
+
+	h3
+		padding-bottom: 45px
+	p 
+		color: #333333
+		font-size: 15 / 16 * 1em
+		font-weight: lighter
+		max-width: 980/2 - 25px
+		padding-bottom: 10px
+
+	p.right
+		margin-top: -70px
+
+		a
+			position: relative
+			top: 10px
+			color: #a81247
+			text-decoration: none
+
+		a:hover
+			text-decoration: underline
+
+.homeServices
+	padding-top: 70px
+	font-family: $font-stack
+
+	ul
+
+	li
+		padding: 70px 90px 0 0
+
+		img 	
+			width: 47px
+			height: 47px
+
+		h4
+			text-transform: uppercase
+			font-weight: bold !important
+			padding-bottom: 15px
+		p,
+		h4 
+			width: 192px
+			color: #333333
+			font-size: 15/16 * 1em
+			font-weight: lighter
+			margin-top: 10px
+			margin-left: 25px
+
+		p 
+			margin-left: 72px
+
+.servicesBottom
+	color: #333333
+	font-size: 15 / 16 * 1em
+	font-weight: lighter
+	text-align: center
+	padding-top: 60px
+
+	a 
+		color: #a81247
+
+.final
+	padding-right: 0 !important
+
+
+.clear 
+	clear: both
+
+.align
+	max-width: 980px
+	margin: 0 auto
